@@ -16,7 +16,7 @@ const Hero = () => {
 
   return (
     <div className="hero" id="home">
-      <div className="blur hero-blur"></div>
+      {/* <div className="blur hero-blur"></div> */}
 
       <div className="left-h">
         <Header />

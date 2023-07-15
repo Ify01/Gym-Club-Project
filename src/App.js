@@ -10,13 +10,15 @@ import Footer from "./components/footer/Footer";
 function App() {
   return (
     <div className="App">
-      <Hero />
-      <Programs />
-      <Reasons />
-      <Plan />
-      <Testimonial />
-      <Join />
-      <Footer />
+      <div className="me">
+        <Hero />
+        <Programs />
+        <Reasons />
+        <Plan />
+        <Testimonial />
+        <Join />
+        <Footer />
+      </div>
     </div>
   );
 }
